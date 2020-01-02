@@ -1,0 +1,13 @@
+Title: The Reverse Partitive Construction in Japanese
+Speaker: Kazuko Yatsushiro
+
+In Japanese noun phrases, quantificational expressions are frequently
+marked with genitive case. Genitive case attached to nouns marks
+possession or partitivity, but on quantifiers it has been regarded as
+purely morphological. We show that genitive case on quantifiers can be
+analyzed as regular genitive case, and identify three distinct
+derivations. Two of these derivations proceed from an underlying
+partitive structure. We claim that the genitive particle can be
+stranded by NP ellipsis, and then attaches to a quantifier. Our
+analysis therefore supports an analysis of partitives, assuming two NP
+positions where ellipsis can target one or both of those two NPs.

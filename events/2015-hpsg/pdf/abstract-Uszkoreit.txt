@@ -1,0 +1,36 @@
+Hans Uszkoreit
+
+DFKI and Saarland University
+
+Syntax and Semantics in the Automatic Extraction of Relations from Texts
+
+Information Extraction has become the cover term for a rather
+successful application area in language technology. Since our
+implemented grammar-based syntactic processing but especially our
+knowledge-based semantic processing are not (yet) powerful enough in
+coverage for true automatic language understanding, shallower methods
+have been developed for the selective extraction of relevant pieces of
+information from large volumes of texts. These pieces of information
+may be topics, named entities, or relations. Whereas we could witness
+strong progress in the detection of named entities, the recognition of
+instances of relations, in particular of n-ary relations still
+constitutes a major challenge.
+
+In our terminology, relation extraction encompasses many types of
+relations: binary relations, n-ary relations, events and arguments. In
+our own work we have followed a systematic and analytic machine
+learning approach that separates different knowledge sources and
+different types of errors more than the majority of research actions
+in the area.  In this way we could apply and investigate different
+types of syntactic and lexical-semantic analysis. We can show how and
+to what degree a successful approach needs to master known problems in
+syntax, semantics and discourse analysis. Our specific way of
+preserving, processing and sharing mentions, discovered syntactic
+patterns and rules also lends itself to new ways of assuring
+reproducibility of results and collaboration among groups.
+
+In the presentation, I will demonstrate the general approach and the
+role of lexical and grammatical information. I will report on
+experiments with data-driven and grammar-driven parsers, among them
+HPSG parsers. I will then explain our semantic approach and point out
+open problems.

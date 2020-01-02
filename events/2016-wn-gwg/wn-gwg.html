@@ -1,0 +1,120 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>How to add a wordnet to the GWG</title>
+</head>
+<body>
+<h1>How to add a wordnet to the GWG</h1>
+
+
+<p>This is preliminary page describing how to add a wordnet to the global wordnet grid.
+
+<ol>
+  <li>Send a URL pointing to a well formed LMF version of a wordnet
+  to <tt>gwgcili@gmail.com</tt> <!-- FIXME: GWG mail address --> and
+  asked to be added.  Someone from your project should be a member of
+  the GWA.  Currently we have no formal requirements for deciding who
+  to add: the ILI maintainers (Bond, McCrae, Vossen and Fellbaum) decide.
+    <br>(in the future, you will upload it somewhere instead of email)
+  <li>We will download it and:
+    <ol>
+      <li>Validate it
+	<br><b>if it is invalid, we will produce an error report</b>
+      <li>Check the content for some common problems (like duplicate lemmas)
+	<br><b>if we find any, we will produce an error report</b> but we
+	can still load it
+      <li>Merge it with the ILI and other wordnets to produce the Global Wordnet Grid
+	<ul>
+	  <li>Also known as the Open Multilingual Wordnet
+	  <li>All entries will be linked to the project (or projects)
+	  that produced them
+	</ul>
+      <li>Identify new ILI candidates
+      <li>Produce a single downloadable linked multilingual wordnet
+    </ol>
+</ol>
+
+
+<h3>Wordnet formatting requirements</h3>
+
+<p>The wordnet should be formatted as valid Simple) wordnet-LMF, using
+the DTD provided.
+
+<h4>MetaData</h4>
+
+This should include:
+<pre>
+project name
+short project name (up to six of [-a-z])
+license
+url
+version
+release date
+</pre>
+
+<h4>Valid licenses</h4>
+
+<p>The licence must be open</a> according to
+the <a href='http://opendefinition.org/'>open definition</a>.
+<ul>
+  <li>Preferred licenses are:
+    <ul>
+      <li>Creative Commons Attribution
+      <li>Creative Commons Attribution Share-Alike
+    </ul>
+</ul>
+
+
+<h3>Requirement to be added to the ILI</h3>
+
+<ul>
+  <li>The synset in your wordnet has a valid definition in English
+    <ul>
+      <li>The definition is written according to the guidelines and is not
+	too similar to an existing definition.
+    </ul>
+  <li>The synset is linked to a synset linked to the ILI
+    by an acceptable link
+    <ul>
+      <li>synonym, hypernym, antonym or meronym
+    </ul>
+  <li>It has a confidence score of 100 (or no confidence given)
+  <li>It is not a duplicate of a concept already in the ILI
+    <ul>
+      <li>Checked automatically
+      <li>No one objects during a trail period (three months)
+    </ul>
+</ul>
+
+<h3>Other changes to the ILI</h3>
+
+<p>There are three other ways to change the ILI
+<ul>
+  <li>Edit definition
+  <li>Deprecate entry
+  <li>Supersede entry (deprecate and link to replacement)
+</ul>
+
+<p>These will have their own interface and guidelines.
+
+
+<hr>
+
+
+<p>More details will be given at the <a href='index.html'>GWC 2016 workshop</a> and in later
+iterations of this page.  This page will move to under GWA pages when
+it is more polished.
+
+<hr>
+<address>
+<strong>Francis Bond </strong>
+&lt;<a href="mailto:bond@ieee.org">bond@ieee.org</a>&gt;
+<br> <a href="http://compling.hss.ntu.edu.sg/">Computational Linguistics Laboratory</a>
+<br> <a href="http://linguistics.hss.ntu.edu.sg/">Division of Linguistics and Multilingual Studies</a>
+<br> <a href="http://www.ntu.edu.sg/">Nanyang Technological University</a>
+</address>
+<hr>
+
+
+</body>
+</html>

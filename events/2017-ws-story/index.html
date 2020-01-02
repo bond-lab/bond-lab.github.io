@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sherlock Holmes Data</title>
+<!-- <link rel="Stylesheet" href="http://www.ling.helsinki.fi/util/css/ykiel.css" type="text/css" media="all"> -->
+</head>
+<body>
+  <h1>Sherlock Holmes Texts</h1>
+
+  <p>Here are the texts of two stories, tokenized, pos-tagged and
+    annotated with extended wordnet senses.  This release is prepared
+    for
+    the <a href='https://sites.google.com/site/eventsandstoriesinthenews/shared-annotation-task'>shared
+    annotation task</a> of the <a href='https://sites.google.com/site/eventsandstoriesinthenews/'>Events and Stories in the News</a> workshop at ACL 2017.  The texts are part of the <a href='http://compling.hss.ntu.edu.sg/ntumc/'>NTU Multilingual Corpus</a>, only the English texts are given here.
+
+    <ul>
+      <li><i>The Adventure of the Speckled Band</i> (SPEC: Arthur Conan Doyle, 1892)
+	<ul>
+	  <li><a href='https://fcbond.github.io/sh-canon/spec.html'>Human Readable Text</a>
+          <li><a href='spec-naf.xml'>Annotated Text (NAF)</a>
+	  <li><a href='http://www.arthur-conan-doyle.com/index.php?title=SPEC'>In the Arthur Conan Doyle Encyclopedia</a>
+	</ul>
+      <li><i>The Adventure of the Dancing Men</i> (DANC: Arthur Conan Doyle, 1903)
+	<ul>
+	  <li><a href='https://fcbond.github.io/sh-canon/danc.html'>Human Readable Text</a>
+          <li><a href='danc-naf.xml'>Annotated Text (NAF)</a>
+	  <li><a href='http://www.arthur-conan-doyle.com/index.php?title=DANC'>In the Arthur Conan Doyle Encyclopedia</a>
+	</ul>
+    </ul>
+  <p>Texts are tokenized, pos-tagged and tagged with wordnet senses.   They are released in a modified version of the <a href="https://github.com/newsreader/NAF">NLP annotation format (NAF)</a>.
+  <p>Sense tags are:
+    <ul>      <li>Wordnet senses (<tt>012345678-[avnrx]</tt>)	<br>http://compling.hss.ntu.edu.sg/ntumc/cgi-bin/wn-gridx.cgi?gridmode=ntumc-noedit&lang=eng&synset=77000021-n<br>You can find them online here (substitute the synset):
+	<br><a href="http://compling.hss.ntu.edu.sg/ntumc/cgi-bin/wn-gridx.cgi?gridmode=ntumc-noedit&lang=eng&synset=77000021-n">http://compling.hss.ntu.edu.sg/ntumc/cgi-bin/wn-gridx.cgi?gridmode=ntumc-noedit&lang=eng&synset=77000021-n</a>
+	    <ul>
+	      <li>if the first digit is 0,1,2 then they are offset and pos from Princeton Wordnet 3.0
+	      <li>if the first digit is 7, then they are pronouns (including demonstratives, indefinite and interrogative)
+	      <li>if the first digit is 8 or 9, then they are new senses from the NTU-MC.
+
+	    </ul>
+      <li>Named entities (<tt>loc|num|org|oth|per|dat:year</tt>)
+    </ul>
+
+  <p>The stories are public domain, the annotations are released under the  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>.
+   <hr>
+      <address>
+	<a href="http://www3.ntu.edu.sg/home/fcbond/"><strong>Francis Bond</strong></a>
+	&lt;<a href="mailto:bond@ieee.org">bond@ieee.org</a>&gt;
+	<br> <a href="https://soh.ntu.edu.sg/Programmes/linguistics/">Division of Linguistics and Multilingual Studies</a>
+	<br> <a href="http://www.ntu.edu.sg/">Nanyang Technological University</a>
+	<br>Level 3, Room 55, 14 Nanyang Drive, Singapore 637332
+	<br>Tel:  (+65) 6592 1568; Fax: (+65) 6794 6303
+      </address>
+</body>
+</html>

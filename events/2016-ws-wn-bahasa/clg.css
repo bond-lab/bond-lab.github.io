@@ -1,0 +1,20 @@
+/* basic elements */
+/* li{
+  margin: 10px 0;
+} */
+
+span.toggle {
+     width:99%;
+     background: #dddddd;
+     font-size: medium;
+     border-radius: 5px;
+     padding: 1px;
+     text-align: center;
+     width: 20px;
+}
+
+div.abstract {
+     /* font-style: italic; */
+     font-size: 95%;
+     padding:15px 15px 15px 15px;
+}
