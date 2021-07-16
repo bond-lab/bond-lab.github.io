@@ -1,8 +1,4 @@
 *.pdf binary
-*.docx binary
-*.ppt binary
-*.pptx binary
 *.jpg binary
-*.JPG binary
-*.gif binary
 *.png binary
+*.eps binary
