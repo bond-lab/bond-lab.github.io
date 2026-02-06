@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Computational Linguistics Lab Members</h1>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-6 col-md-3 mb-4">
+	    <a href="http://www3.ntu.edu.sg/home/fcbond/">
+	      <img class="img-fluid" style="width:90px;height:120px" src="{{ url_for('static', filename='img/fcb-s.jpg') }}" alt="Francis Bond">
+	      <br>Francis <b>Bond</b>
+	    </a>
+	    <br><b>凡土</b> フランシス
+	    <br><small>Associate Professor
+	    <br><a href="http://www.soh.ntu.edu.sg/Programmes/linguistics/Pages/Home.aspx">Linguistics</a>,
+	    <br><a href="http://www.ntu.edu.sg/">NTU</a></small>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+	    <a href="http://www.goodmami.org/">
+	      <img class="img-fluid" style="width:90px;height:120px" src="{{ url_for('static', filename='img/mwg.jpg') }}" alt="Michael Goodman">
+	      <br>Michael <b>Goodman</b>
+	    </a>
+	    <br>
+	    <br><small>Post-Doctoral Fellow
+	    <br><a href="https://blogs.ntu.edu.sg/dh/">Digital Humanities Research Cluster</a>,
+	    <br><a href="http://www.ntu.edu.sg/">NTU</a></small>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+	    <a href="https://www.luismc.com/home/">
+	      <img class="img-fluid" style="width:90px;height:120px" src="{{ url_for('static', filename='img/luis.jpg') }}" alt="Luís Morgado da Costa">
+	      <br>Luís <b>Morgado da Costa</b>
+	    </a>
+	    <br>
+	    <br><small>Ph.D. Student
+	    <br><a href="http://igs.ntu.edu.sg/Pages/Home.aspx">Interdisciplinary Graduate School</a>,
+	    <br><a href="http://www.ntu.edu.sg/">NTU</a></small>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+	      <img class="img-fluid" style="width:90px;height:120px" src="{{ url_for('static', filename='img/siew_yeng.jpg') }}" alt="Chow Siew Yeng">
+	      <br><b>Chow Siew Yeng</b>
+	      <br>周 韶 盈
+	    <br><small>M.A. Student
+	    <br><a href="http://www.soh.ntu.edu.sg/Programmes/linguistics/Pages/Home.aspx">Linguistics</a>,
+	    <br><a href="http://www.ntu.edu.sg/">NTU</a></small>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+	    <a href="http://www.linkedin.com/pub/tommaso-petrolito/55/540/99a/en">
+	      <img class="img-fluid" style="width:90px;height:120px" src="{{ url_for('static', filename='img/tommaso.jpg') }}" alt="Tommaso Petrolito">
+	      <br>Tommaso <b>Petrolito</b>
+	    </a>
+	    <br>
+	    <br><small>M.A. Student
+	    <br><a href="http://infouma.di.unipi.it/magistrale/index.asp">Informatica Umanistica</a>,
+	    <br><a href="http://www.unipi.it/">Università di Pisa</a></small>
+      </div>
+    </div>
+
+{% endblock %}

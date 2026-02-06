@@ -1,0 +1,6 @@
+Thumbnails resized with:
+$ convert -resize 200x200\> infile.jpg outfile.jpg
+
+\> at the end makes it only resize if the x or y dimension is larger than specified (200) (i.e., shrink only, don't enlarge); aspect ratio is not changed, so the longest side will match its dimension while the other may be smaller.
+
+see: https://imagemagick.org/script/command-line-options.php#resize
