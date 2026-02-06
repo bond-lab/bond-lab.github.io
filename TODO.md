@@ -50,7 +50,7 @@ Updated: 2026-02-06
 - [ ] Note which courses are historical vs. current (if no longer teaching at NTU)
 
 ### Events (`events.html`)
-- [ ] Most recent event is from 2020 — add events from 2020–2026
+- [x] Most recent event is from 2020 — add events from 2020–2026
 
 ### Projects (`projects.html`)
 - [ ] "Current" project is from NTU era — update current projects
@@ -68,10 +68,10 @@ Updated: 2026-02-06
 - [ ] DELPH-IN links — check if still live
 
 ### Links Page (`links.html`)
-- [ ] `http://blogs.ntu.edu.sg/chriskhoo/nlp/` — may be dead
-- [ ] `http://ucri.nict.go.jp/en/index.html` — may have moved
-- [ ] `http://www.kecl.ntt.co.jp/icl/lirg/index.html` — may have moved
-- [ ] NTU-specific section may need updating
+- [x] `http://blogs.ntu.edu.sg/chriskhoo/nlp/` — may be dead
+- [x] `http://ucri.nict.go.jp/en/index.html` — may have moved
+- [x] `http://www.kecl.ntt.co.jp/icl/lirg/index.html` — may have moved
+- [x] NTU-specific section may need updating
 
 ### General Link Issues
 - [ ] Many links use `http://` — should be updated to `https://` where available
