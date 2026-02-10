@@ -30,6 +30,7 @@ Updated: 2026-02-06
 ### Publications (`pubs.html`)
 - [x] Added publications from 2022–2026 (15 new entries)
 
+
 ### Theses (`theses.html`)
 - [x] Added 2021 section (Tommaso Petrolito)
 - [x] Added 2022 section (Chow Siew Yeng, Luís Morgado da Costa)
@@ -58,6 +59,9 @@ Updated: 2026-02-06
 - [ ] Add any new projects at UPOL/EdUHK
 
 ## Medium Priority - Broken/Outdated Links
+
+### Publications (`pubs.html`)
+- [ ] create page from bibtex (also for fcbond.github.io)
 
 ### Index Page "Current Research" Links
 - [ ] `http://compling.hss.ntu.edu.sg/omw/` — OMW has moved to https://omwn.org/
