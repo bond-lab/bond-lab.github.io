@@ -12,11 +12,11 @@ from PIL import Image, ImageDraw
 SIZE = 1024
 CENTER = SIZE // 2
 
-OUTER_MARGIN = 60
-RING_WIDTH = 32      # thick ring (your latest preference)
+OUTER_MARGIN = 40
+RING_WIDTH = 72      # thick ring (your latest preference)
 
-PADDING = 80         # space between stars and ring
-STAR_SCALE = 1.30    # enlarged stars
+PADDING = 100        # space between stars and ring
+STAR_SCALE = 2.60    # enlarged stars
 
 
 # ----------------------------
