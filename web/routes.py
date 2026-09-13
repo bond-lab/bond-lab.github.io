@@ -1,6 +1,21 @@
 """Route declaration."""
+import os
+
 from flask import current_app as app
 from flask import render_template
+
+from .bib2html import load_bibliography, render_bibliography
+
+# Load and render the lab bibliography once at startup. Lab membership is
+# recorded per entry with a `lab` field rather than inferred from authors,
+# so papers by lab members without Francis Bond are included too.
+_BIB_DIR = os.path.join(os.path.dirname(__file__), 'static', 'bib')
+_BIB_ENTRIES = load_bibliography(
+    os.path.join(_BIB_DIR, 'abb.bib'),
+    os.path.join(_BIB_DIR, 'mtg.bib'),
+    os.path.join(_BIB_DIR, 'talks.bib'),
+)
+_BIB_HTML = render_bibliography(_BIB_ENTRIES, lab_filter=('ntu', 'upol'))
 
 nav = {
     'index': {"name": "Home",
@@ -36,6 +51,19 @@ def show(page):
         title=nav[page]['name'],
         description=nav[page]['desc'],
     )
+
+@app.route("/pubs.html")
+def pubs():
+    """Publications page (generated from BibTeX)."""
+    return render_template(
+        'pubs.html',
+        page='pubs',
+        nav=nav,
+        title=nav['pubs']['name'],
+        description=nav['pubs']['desc'],
+        bib_html=_BIB_HTML,
+    )
+
 
 @app.route("/")
 def home():
